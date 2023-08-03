@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="Pram" value="PARAM VALUE 3355479" />
+	<listeners>
+		<listener class-name="sel.utility.ListenersTNG" />
+	</listeners>
+	<test thread-count="5" name="Google Page Test">
+		<classes>
+			<class name="Testng_FW.Gmail_Par" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
